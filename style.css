@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.welcome {
+  margin-top: 50px;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.menu-item {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+#reserva form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#reserva input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#reserva button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reserva button:hover {
+  background-color: #218838;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

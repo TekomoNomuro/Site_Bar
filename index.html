@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bar Completo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reserva">Reserva</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="welcome">
+      <h1>Bem-vindo ao Bar Completo!</h1>
+      <p>O melhor lugar para relaxar e curtir um bom drink!</p>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Nosso Menu</h2>
+    <div class="menu-item">
+      <h3>Caipirinha</h3>
+      <p>R$ 18,00</p>
+    </div>
+    <div class="menu-item">
+      <h3>Cerveja Artesanal</h3>
+      <p>R$ 12,00</p>
+    </div>
+    <div class="menu-item">
+      <h3>Gin Tônica</h3>
+      <p>R$ 22,00</p>
+    </div>
+  </section>
+
+  <section id="reserva">
+    <h2>Faça sua Reserva</h2>
+    <form id="reservaForm">
+      <input type="text" id="nome" placeholder="Seu nome" required>
+      <input type="email" id="email" placeholder="Seu e-mail" required>
+      <input type="datetime-local" id="dataReserva" required>
+      <button type="submit">Reservar</button>
+    </form>
+    <p id="reservaStatus"></p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: contato@barcompleto.com.br</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bar Completo. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
